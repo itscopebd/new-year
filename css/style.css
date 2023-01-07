@@ -4,6 +4,7 @@ body{
     margin: 0;
     box-sizing: border-box;
     font-family: 'Work Sans', sans-serif;
+    height: 5000px;
 }
 .btn{
     display: inline-block;
@@ -17,7 +18,20 @@ body{
     font-weight: 600;
     border-radius: 5px;
 }
+ul{
+    padding: 0;
+}
+li{
+    list-style: none;
+}
 
+.wrapper{
+    width: 80%;
+    margin: 0 auto;  
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
 /* Banner section css start here  */
 
 #banner{
@@ -54,3 +68,65 @@ height: 100vh;
         font-weight: 400;
     }
 /* Banner section css end here  */
+
+
+/* failure & Mission section css start here  */
+#myFailure, #myMission{
+    width: 100%;
+    padding: 100px 0;
+}
+
+.img_wrapper{
+    flex: 50%;
+}
+.wrapper img {
+    width: 100%;
+    border-radius: 5px;
+}
+ .content {
+    flex: 50%;
+    padding: 0 100px;
+}
+ .content h3{
+    line-height: 46px;
+    font-size: 40px;
+    color: #151414;
+    font-weight: 700;
+    margin-bottom: 5px;
+    
+}
+ .content p{
+    line-height: 26px;
+    color: #444343;
+}
+ .content ul li{
+    color: #444343;
+    line-height: 26px;
+}
+ .content ul li i{
+    color: #0082DD;
+}
+#myMission{
+    padding-top: 0;
+}
+/* failure & Mission section css end here  */
+
+
+/* skills section css start here  */
+.skills {
+    text-align: center;
+}
+.skills img {
+    width: 70%;
+    text-align: center;
+}
+.skills h4 {
+    margin-bottom: 0;
+    font-size: 30px;
+    line-height: 35px;
+    font-weight: 700;
+}
+
+
+
+/* skills section css end here  */
